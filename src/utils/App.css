@@ -1,0 +1,294 @@
+.nav-link:hover,
+.nav-link {
+    color: #995cfc !important;
+    cursor: pointer;
+}
+
+.dropdown-item:hover {
+    background-color: rgba(224, 224, 224, 0.295) !important;
+    color: black !important;
+}
+
+.dropdown-item {
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.btn-violet{
+    background-color: #6c29d8 !important;
+    border: none !important;
+}
+
+.btn-violet:hover {
+    filter: brightness(92%) !important;
+    background-color: #4e14ac !important;
+}
+
+.btn-violet:active {
+    filter: brightness(82%) !important;
+}
+
+.btn2:hover {
+    filter: brightness(100%) !important;
+    background-color: #e2e2e2 !important;
+    transition: 0.5s !important;
+}
+
+.btn2{
+    transition: 0.5s !important;
+}
+
+.btn-violet2:focus,
+.gray-state {
+    filter: brightness(88%) !important;
+    transition: 0.5s;
+}
+
+.gray-state-description {
+    filter: brightness(94%) !important;
+}
+
+.form-control:focus {
+    box-shadow: 0px 0px 1px #441099 !important;
+    border: solid 1px #441099 !important;
+}
+
+.language {
+    cursor: pointer;
+}
+
+.language2:hover {
+    filter: brightness(90%);
+    cursor: pointer;
+}
+
+body {
+    overflow-x: hidden !important;
+}
+
+.menu-img {
+    display: none;
+}
+
+.card-img-top {
+    object-fit: cover;
+    filter: brightness(90%);
+    background-color: rgba(248, 248, 248, 0.219);
+    border: solid 1px rgb(255, 255, 255);
+}
+
+.menu {
+    width: 100%;
+    height: 90vh;
+    right: 0;
+    z-index: 1000;
+}
+
+.section {
+    mask-image: linear-gradient(rgb(0, 0, 0) 90%, transparent);
+}
+
+@media (max-width: 1000px) {
+    .card{
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 785px) {
+    .language {
+        margin-right: 0rem !important;
+    }
+
+    .nav-item {
+        margin-left: 1rem !important;
+    }
+}
+
+.product-navira {
+    justify-content: start !important;
+}
+
+.custom-width-75{
+    width: 75%;
+}
+
+.rotate-360 {
+    transform: rotate(180deg);
+}
+
+.custom-width-50,
+.custom-width-50-2
+{
+    width: 50%;
+}
+
+.stats{
+    padding-left: 5%;
+}
+
+.custom-mt-5{
+    margin-top: 0%;
+}
+
+.custom-padding-5{
+    padding: 5% 10%;
+}
+
+.custom-padding-10{
+    padding: 5% 10% 0% !important;
+}
+
+.custom-padding-15{
+    padding: 5% 0% !important;
+}
+
+@media (min-width: 767px) {
+    .fs-c{
+        font-size: 3.5rem!important
+    }
+}
+
+@media (max-width: 767px) {
+
+    .banner-responsive{
+        height: 25rem;
+    }
+
+    .custom-padding-10{
+        padding: 10% 2% 0% !important;
+    }
+
+    .custom-padding-15{
+        padding: 12% 3% !important;
+    }
+
+    .products {
+        justify-content: center !important;
+    }
+
+    .btn2{
+        width: 100% !important;
+    }
+
+    .img2{
+        width: 90% !important;
+    }
+
+    .stats{
+        padding-left: 7%;
+        padding-right: 2%;
+    }
+
+    .custom-width-75{
+        width: 100% !important;
+    }
+
+    .custom-width-50{
+        width: 75%;
+    }
+
+    .custom-width-50-2{
+        width: 100% !important;
+        padding-left: 0% !important;
+    }
+
+    .aboutUs1{
+        padding-left: 2% !important;
+        padding-right: 2% !important;
+    }
+
+    .custom-mt-5{
+        margin-top: 15%;
+    }
+
+    .custom-padding-5{
+        padding: 15% 5%;
+    }
+
+    .section3 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .divsection3 {
+        width: 100% !important;
+        padding: 2%;
+    }
+}
+
+.container-navbar {
+    z-index: 10010;
+}
+
+@media(min-width: 806px){
+    .menu{
+        display: none;
+    }
+}
+
+@media (max-width: 806px) {
+    .nav-item,
+    .contact,
+    .language {
+        display: none !important;
+    }
+
+    .menu-img {
+        display: block;
+    }
+
+    .container-navbar {
+        background-color: white !important;
+    }
+
+    .navbar,
+    .nav-link,
+    .navbar-toggler-icon {
+        color: black !important;
+    }
+
+    .navbar .logo-indama {
+        filter: none !important;
+    }
+}
+
+@media (max-width: 475px) {
+    .logo-indama {
+        scale: 85%;
+    }
+
+    .menu-img {
+        scale: 90%;
+    }
+}
+
+@media (max-width: 350px) {
+
+    .menu-img {
+        scale: 80%;
+    }
+
+    .logo-indama {
+        width: 12rem !important;
+    }
+}
+
+@media (max-width: 275px) {
+
+    .menu-img {
+        scale: 75%;
+    }
+
+    .logo-indama {
+        width: 10rem !important;
+    }
+}
+
+.rounded-image {
+    border-radius: 5rem;
+    font-size: 5px;
+}
+
+.text-gray{
+    color: rgb(185, 16, 236);
+}
